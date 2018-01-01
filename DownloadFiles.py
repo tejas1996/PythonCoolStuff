@@ -11,7 +11,7 @@ def download_web(url,filetype):
     name = "downloadedFile"
     fullname = name + "."+ filetype
     urllib.request.urlretrieve(url, fullname)
-
+  
 
 url = raw_input("enter the url from where you want to download")
 type(url)
