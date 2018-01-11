@@ -78,3 +78,4 @@ with tf.Session() as sess:
     # Calculate accuracy
     accuracy = tf.reduce_mean(tf.cast(predictions, "float"))
     print("Accuracy:", accuracy.eval({x: mnist.test.images, y: mnist.test.labels}))
+    #to see the data and training execute: tensorboard --logdir=/home/tejas/Desktop
